@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    h3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(255, 0, 0);
+    }
+    h2{
+        color: rgb(0, 128, 0);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<button onClick="window.location.reload();">Refresh Page</button>
+
+
+<script>
+    alert("Don't fear! it's all about facebook users surVey.")
+    alert("Please enter your facebook id name.")
+    var name=
+    prompt("What is your name?");
+
+    if ( name== "Morshed Galib" || name =="Shariar Hasan"){
+    document.write("<h3>" + "some thing went wrong! you are on danger!!"+"</h3>")   
+    document.write("Thank you for your response "+"<br/>");
+    document.write("Your ID: "+ name );
+    document.write("<h2>"+"Matched Name: "+ name +"</h2>");
+    document.write("For your kindly response we ensure one of your informations: "+ name+ " you are currently a student of UNIVERSITY OF CHITTAGONG.");
+    }
+    else
+    alert("case sensitive - Don't shy or fear! it's all about facebook users survey ;; Please enter your exect facebook id name ;; click ok and Reload or Refresh the page to continue again :D.");
+
+function displayDate(){
+    document.getElementById("demo").innerHTML=Date();
+}
+</script>
+    <p id="demo"></p>
+    <button type="button" onclick="displayDate()">noW tImE</button>
+</body>
+</html>
