@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="UTF-8">
+	  <title>JavaScript Prompts</title>
+</head>
+
+<body>
+  <p>Try typing in different types of inputs, charaters, numbers, etc. Does the code do what you think?</p>
+  
+  <p>Save this file somewhere different on your machine.  See what happens to the link that prints out the URI.</p>
+  
+  <p id="demo">What happens if you forget the script tags?</p>
+   <button type="button" onclick="displayDate()">Display Date</button><br/>
+	  <script>
+		   /*var name;
+    name = prompt("What is your name?");
+			    document.write(name + "seven" + "<br/>");
+			    document.write("<h1>" + name + "</h1>");
+  			  document.write(document.baseURI+"<br>");
+			    document.write(document.title+"<br>");*/
+
+        //function displayDate(){
+            //document.getElementById("demo").innerHTML=Date();
+       // }
+
+      /* var grades=[1];
+       var sum= 0;
+       if (grades.length>0){
+         for (i=0; i<grades.length; i++){
+           sum+= grades[i];
+         }
+         document.write(sum/grades.length);
+       }
+       else
+       document.write('funny');*/
+
+    var name = prompt("what is your name?")
+
+    if (name.length!=0){
+      if (name== "EMON")
+      document.write("What a beautiful name");
+      else
+      document.write("Hello "+ name);
+
+    }
+    else
+    document.write("Feeling shy?");
+  
+    //src ="url("+img.src+")";
+
+
+
+</script>
+</body>
+</html>
